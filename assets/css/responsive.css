@@ -1,0 +1,53 @@
+@media (max-width: 1199.98px) {
+  .hero-visual { min-height: 500px; }
+  .finance-desk { width: 88%; }
+}
+
+@media (max-width: 991.98px) {
+  section { padding: 76px 0; }
+  .navbar-collapse {
+    margin-top: 14px;
+    padding: 16px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--glass);
+    backdrop-filter: blur(18px);
+  }
+  .mega-panel { min-width: 100%; box-shadow: none; }
+  .hero { min-height: auto; padding-top: 128px; }
+  .hero-visual { margin-top: 36px; min-height: 470px; }
+  .card-signal { left: 0; }
+  .card-session { right: 0; }
+  .logo-strip { grid-template-columns: repeat(3, 1fr); }
+  .gallery-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 767.98px) {
+  .hero h1, .page-hero h1 { line-height: 1.04; }
+  .hero-visual { min-height: 420px; }
+  .finance-desk { width: 100%; inset: 70px 0 auto 0; }
+  .glass-card { padding: 14px; }
+  .card-signal, .card-profit, .card-session { width: 180px; }
+  .card-profit { bottom: 70px; }
+  .trust-badge { font-size: .82rem; }
+  .timeline-item { grid-template-columns: 1fr; gap: 8px; }
+  .logo-strip { grid-template-columns: repeat(2, 1fr); }
+  .gallery-grid { grid-template-columns: 1fr; }
+  .floating-actions { right: 12px; bottom: 12px; }
+  .mouse-glow { display: none; }
+}
+
+@media (max-width: 575.98px) {
+  section { padding: 64px 0; }
+  .hero { padding-top: 116px; }
+  .hero .d-flex.gap-3 { flex-direction: column; }
+  .hero .btn { width: 100%; }
+  .hero-visual { min-height: 360px; }
+  .card-session { display: none; }
+  .card-signal { top: 0; }
+  .card-profit { bottom: 34px; }
+  .section-title { margin-bottom: 34px; }
+  .feature-card, .service-card, .process-card, .team-card, .testimonial-card, .contact-panel { padding: 22px; }
+  .roadmap-step { padding-left: 54px; }
+  .roadmap-step::before { width: 40px; height: 40px; left: -20px; }
+}
